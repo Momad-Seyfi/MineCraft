@@ -1,0 +1,13 @@
+/* src/components/CustomCursor.css */
+.custom-cursor {
+    position: absolute;
+    pointer-events: none; /* Prevent mouse events from being captured by the cursor */
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Background with transparency */
+    padding: 5px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 12px; /* Font size */
+    transform: translate(-50%, -50%); /* Center the text */
+    z-index: 999; /* Make sure it stays on top */
+  }
+  
