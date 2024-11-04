@@ -7,8 +7,8 @@ const BlockDetail = () => {
 
   return (
     <div>
-      <h2>Block Detail for Block ID: {id}</h2>
-      <p>More information about block {id} goes here.</p>
+      <h2></h2>
+      <p></p>
     </div>
   );
 };
