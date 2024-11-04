@@ -26,9 +26,9 @@ const Block = (props) => {
   };
 
   // Handle mouse up event
-  const onPointerUp = () => {
-    setIsDragging(false);
-  };
+  // const onPointerUp = () => {
+  //   setIsDragging(false);
+  // };
 
   // Handle mouse move globally when dragging
   useEffect(() => {
